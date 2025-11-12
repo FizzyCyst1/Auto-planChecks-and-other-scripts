@@ -1,0 +1,1 @@
+Script will export profiles/PDD from a desired reference point in the plan into a text file that can be imported in SunDOSE. Must have restriction of 1 plan per field. Refer to word document for details.
