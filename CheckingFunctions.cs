@@ -43,7 +43,7 @@ namespace BeginPlanCheck2
         {
             string userinitials = string.Empty;
 
-            if (_currentUserId == "60143471") // 60027842; ET
+            if (_currentUserId == "00000000") // 
             {
                 userinitials = "JH";
 
@@ -64,7 +64,7 @@ namespace BeginPlanCheck2
             string ui = string.Empty;
 
 
-            if (_currentUserId != "60027842" | _currentUserId != "60143471" | _currentUserId != @"nswhealth\60027842" | _currentUserId != @"nswhealth\60143471") //Messy.
+            if (_currentUserId != "00000000" | _currentUserId != "00000" | _currentUserId != @"0000000" | _currentUserId != @"000000") //Messy.
             {
 
                 StringBuilder sb = new StringBuilder();
@@ -96,7 +96,7 @@ namespace BeginPlanCheck2
             }
             else {
 
-                ui = "ET"; //Then userID matches 60027842 which is Eugene (Shiaw J. T)
+                ui = "ET"; //Then userID matches 0000000 which is 
             }
             return ui;
 
@@ -502,7 +502,7 @@ namespace BeginPlanCheck2
                 {
                    // Console.WriteLine(i);
                     if (i.Contains(searchstring))
-                        calclogs = i; //Really Josh? You want to define 'i' as a string variable? But then what is sqrt(-1)?
+                        calclogs = i; //Really? You want to define 'i' as a string variable? But then what is sqrt(-1)?
                 }
             }
             
@@ -755,3 +755,4 @@ namespace BeginPlanCheck2
 
     }
 }
+
